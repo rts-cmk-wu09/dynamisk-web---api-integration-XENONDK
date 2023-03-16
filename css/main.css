@@ -1,13 +1,14 @@
-.main{
+.main {
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
 }
 
-.main a{
-    z-index: 10;
+.main a {
+    max-width: 10px;
+    max-height: 10px;
+    
     background-color: rgba(255, 255, 255, 0.463);
-    max-width: 100px;
-    max-height: 200px;
     border: 1px solid black;
 }
