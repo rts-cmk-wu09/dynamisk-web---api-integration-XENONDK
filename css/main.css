@@ -3,12 +3,26 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .main a {
-    max-width: 10px;
-    max-height: 10px;
-    
-    background-color: rgba(255, 255, 255, 0.463);
-    border: 1px solid black;
+    max-width: 25%;
+    max-height: 40%;
+    background-color: rgba(137, 175, 199, 0.693);
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.main a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.main a div img {
+    width: 100px;
+
 }

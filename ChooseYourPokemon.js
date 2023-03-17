@@ -1,4 +1,4 @@
-fetch("https://pokeapi.co/api/v2/pokemon")
+fetch(`https://pokeapi.co/api/v2/pokemon`)
 .then(function (response) {
     if (response.status !== 200) {
         throw new Error("tjaaaaa")
@@ -35,3 +35,4 @@ fetch("https://pokeapi.co/api/v2/pokemon")
 
 });
 })
+
